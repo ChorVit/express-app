@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "local": "nodemon --inspect index.js",
-    "test": "npm run test"
+    "test": "npm run"
   },
   "keywords": [],
   "author": "",
