@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@16.16.0
+  node: circleci/node@8.11.0
 
 jobs:
   build-and-test:
