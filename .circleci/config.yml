@@ -7,14 +7,5 @@ jobs:
     docker:
       - image: cimg/node:16.16.0
     steps:
-      - checkout
-      - node/install-packages:
-          pkg-manager: npm
-      - run:
-          name: Run tests
-          command: npm test
-
-workflows:
-  sample:
-    jobs:
-      - build-and-test
+      - run: npm install
+      - run: npm test
