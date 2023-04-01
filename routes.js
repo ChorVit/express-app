@@ -6,6 +6,9 @@ let cards = [
 
 function routes(app){
 
+app.get('/', (req, res) => {
+        res.send('Hello World!')
+})
 
 app.get('/card', (req, res) => {
     res.send(cards)
