@@ -5,3 +5,4 @@ function bodyParsering(app){
     app.use(bodyParserPackege.json())
 }
 module.exports = bodyParsering;
+
